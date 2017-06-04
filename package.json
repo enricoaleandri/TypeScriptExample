@@ -1,0 +1,28 @@
+{
+  "name": "type-script-example",
+  "version": "0.0.1",
+  "description": "Just few basic example of typescript ",
+  "main": "index.js",
+  "dependencies": {
+    "node.extend": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enricoaleandri/TypeScriptExample.git"
+  },
+  "keywords": [
+    "Typescript",
+    "example",
+    "type-script"
+  ],
+  "author": "Enrico Aleandri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enricoaleandri/TypeScriptExample/issues"
+  },
+  "homepage": "https://github.com/enricoaleandri/TypeScriptExample#readme"
+}
