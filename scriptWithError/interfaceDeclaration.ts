@@ -13,3 +13,12 @@ var basicCall = {
 };
 
 chiamaTaxi(basicCall); // missing params required from interface
+
+
+
+interface Calendario {
+    [index:string]: number
+}
+var diz: Calendario = {};
+diz["Giugno-1"] = "Lunedi"; // this requires number value, not string
+diz["Giugno-2"] = 2;

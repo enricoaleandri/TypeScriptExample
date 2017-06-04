@@ -11,7 +11,19 @@ function _extend(origin, add?:any) {
   return origin;
 };
 
+interface ChiamataTappeIntermedie {
+    partenza: string,
+    destinazione: string,
+    passeggeri:number,
+    sosteIntermedie : Array<string>,
+    bagagli? : number // This means  the bagagli can be optional
+}
 
+function chiamataTaxiTappeIntermedie(chiamata: ChiamataTappeIntermedie) {
+    //do som beautiful stuff with sosteIntermedie, like retrive coordinate or check price.
+
+    chiamaTaxi(chiamata); // invoke basic immaginary service call
+}
 function chiamaTaxi(chiamata: {partenza: string, destinazione: string, passeggeri:number}) {
     //immaginary service
     console.log("Partenza:", chiamata.partenza,
@@ -26,6 +38,7 @@ function chiamaTaxi(chiamata: {partenza: string, destinazione: string, passegger
      console.log("Other params:", JSON.stringify(othersParam));
    }
 };
+
 
 enum paymentMethod  {Visa = 10, Mastercard = 11, Cash = 0};
 var basicCall = {
