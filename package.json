@@ -4,7 +4,8 @@
   "description": "Just few basic example of typescript ",
   "main": "index.js",
   "dependencies": {
-    "node.extend": "^2.0.0"
+    "node.extend": "^2.0.0",
+    "requirejs": "^2.3.3"
   },
   "devDependencies": {},
   "scripts": {
